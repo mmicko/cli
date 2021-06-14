@@ -1,11 +1,14 @@
 import click, signal, os, sys
+from fpga.cmds import FPGACLI
+from fpga.__init__ import __version__
 
 def force_shutdown(signum, frame):
 	if (os.name != 'nt' and signum != signal.SIGPIPE):
 		click.secho("\n==> Keyboard interrupt or external termination signal", fg="red", nl=True, bold=True)
 	sys.exit(1)
 
-@click.group(help="""FPGA - Command Line Interface\n""", invoke_without_command=True)
+@click.group(cls=FPGACLI, help="""FPGA - Command Line Interface\n""", invoke_without_command=True)
+@click.version_option(__version__)
 @click.pass_context
 def cli(ctx):
 	if os.name == "posix":
