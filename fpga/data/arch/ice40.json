@@ -1,0 +1,96 @@
+[
+	{
+		"device" : "lp384",
+		"name" : "iCE40LP384",
+		"packages" : [
+			"cm36",
+			"cm49",
+			"qn32"			
+		]
+	},
+	{
+		"device" : "lp1k",
+		"name" : "iCE40LP1K",
+		"packages" : [
+			"cb121",
+			"cb132",
+			"cb81",
+			"cm121",
+			"cm36",
+			"cm49",
+			"cm81",
+			"qn84",
+			"swg16tr",
+			"tq144",
+			"vq100"
+		]
+	},
+	{
+		"device" : "lp8k",
+		"name" : "iCE40LP8K",
+		"packages" : [
+			"bg121",
+			"cb132",
+			"cm121",
+			"cm225",
+			"cm81",
+			"ct256",
+			"bg121:4k",
+			"cb132:4k",
+			"cm121:4k",
+			"cm225:4k",
+			"cm81:4k",
+			"tq144:4k"
+		]
+	},
+	{
+		"device" : "hx1k",
+		"name" : "iCE40HX1K",
+		"packages" : [
+			"cb121",
+			"cb132",
+			"cb81",
+			"cm121",
+			"cm36",
+			"cm49",
+			"cm81",
+			"qn84",
+			"swg16tr",
+			"tq144",
+			"vq100"
+		]
+	},
+	{
+		"device" : "hx8k",
+		"name" : "iCE40HX8K",
+		"packages" : [
+			"bg121",
+			"cb132",
+			"cm121",
+			"cm225",
+			"cm81",
+			"ct256",
+			"bg121:4k",
+			"cb132:4k",
+			"cm121:4k",
+			"cm225:4k",
+			"cm81:4k",
+			"tq144:4k"
+		]
+	},
+	{
+		"device" : "up5k",
+		"name" : "iCE40UP5K",
+		"packages" : [
+			"sg48",
+			"uwg30"
+		]
+	},
+	{
+		"device" : "u4k",
+		"name" : "iCE5LP4K",
+		"packages" : [
+			"sg48"
+		]
+	}
+]

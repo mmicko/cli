@@ -1,0 +1,98 @@
+[
+	{
+		"device" : "12k",
+		"name" : "LFE5U-12F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CSFBGA285"			
+		]
+	},
+	{
+		"device" : "25k",
+		"name" : "LFE5U-25F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CSFBGA285"			
+		]
+	},
+	{
+		"device" : "um-25k",
+		"name" : "LFE5UM-25F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CSFBGA285"			
+		]
+	},
+	{
+		"device" : "um5g-25k",
+		"name" : "LFE5UM5G-25F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CSFBGA285"			
+		]
+	},
+	{
+		"device" : "45k",
+		"name" : "LFE5U-45F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CABGA554",
+			"CSFBGA285"
+		]
+	},
+	{
+		"device" : "um-45k",
+		"name" : "LFE5UM-45F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CABGA554",
+			"CSFBGA285"
+		]
+	},
+	{
+		"device" : "um5g-45k",
+		"name" : "LFE5UM5G-45F",
+		"packages" : [
+			"CABGA256",
+			"CABGA381",
+			"CABGA554",
+			"CSFBGA285"
+		]
+	},
+	{
+		"device" : "85k",
+		"name" : "LFE5U-85F",
+		"packages" : [
+			"CABGA381",
+			"CABGA554",
+			"CABGA756",
+			"CSFBGA285"
+		]
+	},
+	{
+		"device" : "um-85k",
+		"name" : "LFE5UM-85F",
+		"packages" : [
+			"CABGA381",
+			"CABGA554",
+			"CABGA756",
+			"CSFBGA285"
+		]
+	},
+	{
+		"device" : "um5g-85k",
+		"name" : "LFE5UM5G-85F",
+		"packages" : [
+			"CABGA381",
+			"CABGA554",
+			"CABGA756",
+			"CSFBGA285"
+		]
+	}
+]
