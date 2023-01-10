@@ -53,8 +53,8 @@ class Project():
         return None
 
     def getSourceFiles(self):
-        files = set(glob.glob("*.v")) - set(glob.glob("*_tb.v"))
-        return [f for f in files]
+        files = list(set(glob.glob("*.v")) - set(glob.glob("*_tb.v")))
+        return [f for f in sorted(files)]
 
     def getConfiguration(self):
         return self.board
