@@ -36,14 +36,14 @@ class ICE40Architecture(BaseArchitecture):
 
     def executePack(self):
         if self.isUpdateNeeded([os.path.join(self.work_dir,'output.asc')],os.path.join(self.work_dir,'output.bin')):
-            if (shutil.which('icepack')):
+            if shutil.which('icepack'):
                 FPGATask(self.job, "pack", [], f"icepack {os.path.join(self.work_dir, 'output.asc')} {os.path.join(self.work_dir, 'output.bin')}")
                 self.job.run()
             else:
                 click.secho('Executable for {} not available, install'.format('icepack'), fg="red")
                 sys.exit(-1)
         else:
-           self.job.log(click.style("pack", fg="magenta") + ": No need for packing step")
+            self.job.log(click.style("pack", fg="magenta") + ": No need for packing step")
 
 #	def executeUpload(self, variant, programmer):
 #		self.executeBuild(variant)

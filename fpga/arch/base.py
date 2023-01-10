@@ -21,7 +21,7 @@ def getArchitectureByName(ctx, name, project):
     mod = None
     try:
         mod = __import__("fpga.arch." + name, None, None, ["create"])
-    except(ImportError):
+    except ImportError:
         click.secho('[{}] Invalid architecture {}'.format('validate', name), fg="red")
         sys.exit(-1)
     return mod.create(ctx, project)
